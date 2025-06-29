@@ -1,22 +1,8 @@
 import kotlin.test.Test
 import kotlin.test.assertEquals
-import org.example.celsiusToFahrenheit
-import org.example.kilometersToMiles
-import org.example.calculateTotalElectronicsPriceOver500
-import org.example.countElectronicsOver500
-import org.example.Product
 
 class WorkshopTest {
 
-    val products = listOf(
-        Product("Laptop",     35000.0,  "Electronics"),
-        Product("Smartphone", 25000.0,  "Electronics"),
-        Product("T-shirt",      450.0,  "Apparel"),
-        Product("Monitor",     7500.0,  "Electronics"),
-        Product("Keyboard",     499.0,  "Electronics"), // ราคาไม่เกิน 500
-        Product("Jeans",       1200.0,  "Apparel"),
-        Product("Headphones",  1800.0,  "Electronics")  // ตรงตามเงื่อนไข
-    )
 
     // --- Tests for Workshop #1: Unit Converter ---
 
